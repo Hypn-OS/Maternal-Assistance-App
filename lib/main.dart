@@ -1,23 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:Maternal/ui/login_page.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        scaffoldBackgroundColor: Color(0xFF221F20),
+    return new MaterialApp(
+      title: 'Maternal',
+      theme: new ThemeData(
+
+        primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter Splash Demo'),
-        ),
-        body: Center(
-          child: Text('Welcome'),
-        ),
-      ),
+      home: new LoginPage(),
     );
   }
 }

@@ -5,7 +5,9 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:Maternal/style/theme.dart' as Theme;
 import 'package:Maternal/utils/bubble_indication_painter.dart';
-import 'package:Maternal/profile_page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -335,10 +337,31 @@ class _LoginPageState extends State<LoginPage>
                             fontFamily: "WorkSansBold"),
                       ),
                     ),
-                    onPressed: () =>
+                      onPressed: () =>
                         Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
                           builder: (context) => ProfilePage()
                         ))
+              
+
+/*                     onPressed: () { 
+                      String email_id = 'sjha200000@gmail.com';
+                      String password_id = '12345678';
+                      FirebaseAuth.instance
+                        .signInWithEmailAndPassword(
+                          email: email_id,
+                          password: password_id)
+                        .then((currentUser) => Firestore.instance
+                          .collection("users")
+                          .document(currentUser.uid)
+                          .get()
+                          .then((DocumentSnapshot result) => 
+                          prefix0.Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
+                            builder: (context) => ProfilePage(),
+                          ) )
+                          )); */
+                    
+                          
+                    
               ),
 
               )

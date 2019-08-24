@@ -1,3 +1,4 @@
+import 'package:Maternal/pages/dashboard.dart';
 import 'package:Maternal/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as prefix0;
@@ -5,7 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:Maternal/style/theme.dart' as Theme;
 import 'package:Maternal/utils/bubble_indication_painter.dart';
-import 'package:Maternal/profile_page.dart';
+
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -337,7 +338,7 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     onPressed: () =>
                         Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
-                          builder: (context) => ProfilePage()
+                          builder: (context) => MainPage()
                         ))
               ),
 
@@ -642,7 +643,10 @@ class _LoginPageState extends State<LoginPage>
                       ),
                     ),
                     onPressed: () =>
-                        showInSnackBar("SignUp button pressed")),
+                      Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
+                          builder: (context) => ProfilePage()
+                        ))
+                ),        
               ),
             ],
           ),

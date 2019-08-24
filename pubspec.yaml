@@ -20,7 +20,7 @@ dev_dependencies:
 
   font_awesome_flutter: ^8.0.1
   flutter_sparkline: any
-  flutter_staggered_grid_view: any
+  flutter_staggered_grid_view: any 
 
 flutter:
 

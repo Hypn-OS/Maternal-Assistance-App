@@ -1,9 +1,5 @@
-<h1 align="center">The Gorgeous Login</h1>
+<h1 align="center">MAA (Maternal Assistance App) </h1>
 
-<h3 align="center">
-  A login page built with flutter inspired by a design found on Uplabs
+<h3>
+  MAA is a android app built using Flutter stretching the focus on the Maternal assistance required for the female in India. This app individually targets audience from india and it is been designed in such a way that, Indian mother's can take good use of technology.
 </h3>
-
-Uplabs design        |  Flutter rendering
-:-------------------------:|:-------------------------:
-![original-design](./github/template.jpg)  |   ![](./github/login.gif)

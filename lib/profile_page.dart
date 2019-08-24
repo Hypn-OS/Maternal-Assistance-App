@@ -43,7 +43,7 @@ class MapScreenState extends State<ProfilePage>
                             ),
                             Padding(
                               padding: EdgeInsets.only(left: 25.0),
-                              child: new Text('PROFILE',
+                              child: new Text('Background Information',
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 20.0,

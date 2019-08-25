@@ -11,6 +11,13 @@
                                        |_|  |_/_/    \_\/_/    \_\
 
 
+This is the official code repository for Hypnos . This type of application was developed during [HaXplore](https://codefest.tech/haxplore), the on-campus event conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
+
+# Team Members :triangular_flag_on_post:
+1. [Ayush Bhardwaj](https://github.com/hastagAB)
+2. [Sahil Jha](https://github.com/sjha2048) 
+3. [Kaushlendra Pratap](https://github.com/Kaushl2208)
+
 # MAA(Maternal Assistance App) :baby_symbol:
 India is highly populated and it needs effective healthcare accessible to all. Maternal Assistance App(MAA) provides Indian mothers to get regular & instant assistance during the pregnancy and the parenting phase. It is a personalized healthcare app especially for maternal assistance which can provide instant but effective help whenever and wherever needed. In this fast-growing technical world, a mobile device is something that is so close to everyone and having a virtual assistant during pregnancy and parenting phase is like a boon for Mankind. 
 
@@ -43,14 +50,29 @@ MAA (Maternal Assistance App) developed by Hypnos is specially designed for Indi
 - A medical helper (Nurse, ASHA, etc)can also join to provide some guidance.
 - Parents of a fully grown child can share some insights or their experiences.
 
-# Screens 
+# Technical Details 🔧
+### Tech Stack : 
+- Flutter (For app development)
+- Dart, Objective-C, Java
+- Redux
+- Firebase (For Backend Services)
+- Google Map API
+
+Flutter will be used for UI/UX and making a cross-platform application which will work seamlessly on Android and iOS, basic backend operations will be carried with the help of Dart while the complex services will be handled on Firebase like firestore for a secure and consistent database, fireauth for secure authentication.
+Redux will be used for state management will make sure that the app doesn’t crash because we aim to provide a seamless experience to the user, for making the application highly scalable. We will be using several APIs for functions like locating the nearest hospital.
+
+# To Test 👨‍💻
+- Install Flutter --> [Steps for Installation](https://flutter.dev/docs/get-started/install)
+- run `flutter run`
+
+# Screens :computer:
 ![Login/Signup](files/Login.gif)
 ![Profile](files/Profile.gif)
 ![Dashboard](files/Dashboard.gif)
 
 
 
-# Note
+# Note :clipboard:
 For running and building the app properly you have to use the geo-location API key in 
 
 ```

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'forum.dart';
 
-class ShopItemsPage extends StatefulWidget {
+class RemindersPage extends StatefulWidget {
   @override
-  _ShopItemsPageState createState() => _ShopItemsPageState();
+  _RemindersPageState createState() => _RemindersPageState();
 }
 
-class _ShopItemsPageState extends State<ShopItemsPage> {
+class _RemindersPageState extends State<RemindersPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +18,7 @@ class _ShopItemsPageState extends State<ShopItemsPage> {
             onPressed: () => Navigator.of(context).pop(),
             icon: Icon(Icons.arrow_back, color: Colors.black),
           ),
-          title: Text('Blogs (3)',
+          title: Text('Reminders',
               style:
                   TextStyle(color: Colors.black, fontWeight: FontWeight.w700)),
           // actions: <Widget>
@@ -60,7 +60,7 @@ class _ShopItemsPageState extends State<ShopItemsPage> {
                         children: <Widget>[
                           Icon(Icons.add, color: Colors.white),
                           Padding(padding: EdgeInsets.only(right: 16.0)),
-                          Text('ADD A POST',
+                          Text('ADD AN APPOINTMENT',
                               style: TextStyle(color: Colors.white))
                         ],
                       ),
@@ -95,7 +95,7 @@ class ShopItem extends StatelessWidget {
                       margin: EdgeInsets.only(top: 24.0),
                       child: Material(
                         elevation: 14.0,
-                        borderRadius: BorderRadius.circular(12.0),
+                       borderRadius: BorderRadius.circular(12.0),
                         shadowColor: Color(0x802196F3),
                         color: Colors.white,
                         child: InkWell(
@@ -114,23 +114,22 @@ class ShopItem extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text(
-                                        'Pradhan Mantri Surakshit Matritva Abhiyan',
+                                        'Monthly Checkup',
                                         style: TextStyle(
                                             color: Colors.blueAccent,
-                                            fontSize: 11.0)),
+                                            fontSize: 15.0)),
                                     Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.start,
                                       crossAxisAlignment:
                                           CrossAxisAlignment.center,
                                       children: <Widget>[
-                                        Text('4.6',
+                                        Text('Dr. Preeti',
                                             style: TextStyle(
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.w700,
                                                 fontSize: 34.0)),
-                                        Icon(Icons.star,
-                                            color: Colors.black, size: 24.0),
+                                     
                                       ],
                                     ),
                                   ],
@@ -141,11 +140,11 @@ class ShopItem extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
-                                    Text('Viewed by', style: TextStyle()),
+                                    Text('Scheduled', style: TextStyle()),
                                     Padding(
                                       padding:
                                           EdgeInsets.symmetric(horizontal: 4.0),
-                                      child: Text('1,361',
+                                      child: Text('Tomorrow',
                                           style: TextStyle(
                                               fontWeight: FontWeight.w700)),
                                     ),
@@ -179,7 +178,7 @@ class ShopItem extends StatelessWidget {
           ),
 
           /// Review
-          Padding(
+           Padding(
             padding: EdgeInsets.only(top: 160.0, left: 32.0),
             child: Material(
               elevation: 12.0,
@@ -200,11 +199,11 @@ class ShopItem extends StatelessWidget {
                   child: ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Colors.purple,
-                      child: Text('PS'),
+                      child: Text('GR'),
                     ),
-                    title: Text('Preeti Sabharwal ★★★★★', style: TextStyle()),
+                    title: Text('Gangaram Hospital', style: TextStyle()),
                     subtitle: Text(
-                        'This was very useful, thanks for sharing.',
+                        'Karol Bagh, New Delhi - 110096',
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle()),
@@ -218,7 +217,7 @@ class ShopItem extends StatelessWidget {
     );
   }
 }
-
+ 
 class BadShopItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -259,7 +258,7 @@ class BadShopItem extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
-                                    Text('Rashtriya Bal Swastha Karyakram',
+                                    Text('Vaccination',
                                         style: TextStyle(color: Colors.white)),
                                     Row(
                                       mainAxisAlignment:
@@ -267,13 +266,12 @@ class BadShopItem extends StatelessWidget {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.center,
                                       children: <Widget>[
-                                        Text('4.1',
+                                        Text('Hepatitis B',
                                             style: TextStyle(
                                                 color: Colors.amber,
                                                 fontWeight: FontWeight.w700,
                                                 fontSize: 34.0)),
-                                        Icon(Icons.star,
-                                            color: Colors.amber, size: 24.0),
+                         
                                       ],
                                     ),
                                   ],
@@ -284,12 +282,12 @@ class BadShopItem extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
-                                    Text('Viewed by',
+                                    Text('Due By: 28/09/19',
                                         style: TextStyle(color: Colors.white)),
                                     Padding(
                                       padding:
                                           EdgeInsets.symmetric(horizontal: 4.0),
-                                      child: Text('1,234',
+                                      child: Text('',
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.w700)),
@@ -342,11 +340,11 @@ class BadShopItem extends StatelessWidget {
                 child: ListTile(
                   leading: CircleAvatar(
                     backgroundColor: Colors.purple,
-                    child: Text('BS'),
+                    child: Text('HB'),
                   ),
-                  title: Text('Vidya Sharma ★★★★☆'),
+                  title: Text('Intramuscular'),
                   subtitle: Text(
-                      'It is helpful to learn that this covers 30 common health conditions in children',
+                      'Antero lateral side of mid thigh',
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis),
                 ),

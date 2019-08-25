@@ -644,7 +644,7 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     onPressed: () =>
                       Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
-                          builder: (context) => ProfilePage()
+                          builder: (context) => LoginPage()
                         ))
                 ),        
               ),

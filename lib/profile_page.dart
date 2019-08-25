@@ -37,13 +37,18 @@ class MapScreenState extends State<ProfilePage>
                         child: new Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            new Icon(
-                              Icons.arrow_back_ios,
-                              color: Colors.black,
-                              size: 22.0,
+                            new RaisedButton(
+                              child: new Text("Back"),
+                                color: Colors.white,
+                              
+                              onPressed: () => {
+                                Navigator.pushReplacement(context, MaterialPageRoute(
+                          builder: (context) => MainPage()
+                        ))
+                              },
                             ),
                             Padding(
-                              padding: EdgeInsets.only(left: 25.0),
+                              padding: EdgeInsets.only(left: 20.0, top: 10.0),
                               child: new Text('Background Information',
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,

@@ -21,7 +21,8 @@ dev_dependencies:
   font_awesome_flutter: ^8.0.1
   flutter_sparkline: any
   flutter_staggered_grid_view: any 
-
+  google_maps_flutter: ^0.4.0
+  fluttery_seekbar: ^0.0.1
 flutter:
 
   uses-material-design: true
@@ -29,6 +30,15 @@ flutter:
   assets:
       - assets/login_logo.png
       - assets/shoes1.png
+      - assets/focus.jpeg
+      - assets/images/logo.png
+      - assets/images/powered_by.png
+      - assets/images/email_icon.png
+      - assets/images/password_icon.png
+      - assets/images/user_icon.png
+      - assets/images/as.png
+
+
 
   fonts:
     - family: WorkSansSemiBold
@@ -42,3 +52,10 @@ flutter:
     - family: WorkSansMedium
       fonts:
         - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
+    - family: Nexa
+      fonts:
+        - asset: assets/Nexa-Bold.otf
+
+    - family: NexaLight
+      fonts:
+        - asset: assets/Nexa-Light.otf

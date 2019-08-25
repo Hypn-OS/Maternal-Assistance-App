@@ -43,6 +43,12 @@ MAA (Maternal Assistance App) developed by Hypnos is specially designed for Indi
 - A medical helper (Nurse, ASHA, etc)can also join to provide some guidance.
 - Parents of a fully grown child can share some insights or their experiences.
 
+# Screens 
+![Login/Signup](files/Login.gif)
+![Profile](files/Profile.gif)
+![Dashboard](files/Dashboard.gif)
+
+
 
 # Note
 For running and building the app properly you have to use the geo-location API key in 

@@ -11,6 +11,8 @@
                                        |_|  |_/_/    \_\/_/    \_\
 
 
+![Logo](assets/MAA.png)
+
 This is the official code repository for Hypnos . This type of application was developed during [HaXplore](https://codefest.tech/haxplore), the on-campus event conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
 
 # Team Members :triangular_flag_on_post:

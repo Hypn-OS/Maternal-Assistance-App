@@ -2,20 +2,12 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](/LICENSE) 
 [![](https://img.shields.io/badge/</>%20With%20❤️%20By-Hypnos-red)](https://github.com/Hypn-OS)
 ![GitHub stars](https://img.shields.io/github/stars/Hypn-OS/Maternal-Assistance-App?style=social)
- 
-                                        __  __                    
-                                       |  \/  |   /\        /\    
-                                       | \  / |  /  \      /  \   
-                                       | |\/| | / /\ \    / /\ \  
-                                       | |  | |/ ____ \  / ____ \ 
-                                       |_|  |_/_/    \_\/_/    \_\
 
 
 ![Logo](assets/MAA.png)
 
-This is the official code repository for Hypnos . This type of application was developed during [HaXplore](https://codefest.tech/haxplore), the on-campus event conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
 
-# Team Members :triangular_flag_on_post:
+# Contributors :triangular_flag_on_post:
 1. [Ayush Bhardwaj](https://github.com/hastagAB)
 2. [Sahil Jha](https://github.com/sjha2048) 
 3. [Kaushlendra Pratap](https://github.com/Kaushl2208)

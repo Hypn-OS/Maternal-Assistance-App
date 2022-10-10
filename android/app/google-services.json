@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329890287444",
+    "firebase_url": "https://maaa-2a272.firebaseio.com",
+    "project_id": "maaa-2a272",
+    "storage_bucket": "maaa-2a272.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329890287444:android:c1bc555b37fd9b92",
+        "android_client_info": {
+          "package_name": "com.hypnos.maternal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329890287444-v1gipu5jm1fhhoee0knveermnf9nu7ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvYYgNS3QMU9_1PEc7T6dCAQ2VAxVjJUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329890287444-v1gipu5jm1fhhoee0knveermnf9nu7ff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

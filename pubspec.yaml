@@ -20,9 +20,11 @@ dev_dependencies:
 
   font_awesome_flutter: ^8.0.1
   flutter_sparkline: any
-  flutter_staggered_grid_view: any 
-  google_maps_flutter: ^0.4.0
-  fluttery_seekbar: ^0.0.1
+
+  flutter_staggered_grid_view: any
+  firebase_auth: 0.7.0
+  cloud_firestore: 0.8.2+3
+
 flutter:
 
   uses-material-design: true

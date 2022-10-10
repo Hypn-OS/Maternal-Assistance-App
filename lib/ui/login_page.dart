@@ -1,3 +1,4 @@
+import 'package:Maternal/pages/dashboard.dart';
 import 'package:Maternal/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as prefix0;
@@ -339,7 +340,7 @@ class _LoginPageState extends State<LoginPage>
                     ),
                       onPressed: () =>
                         Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
-                          builder: (context) => ProfilePage()
+                          builder: (context) => MainPage()
                         ))
               
 
@@ -665,7 +666,10 @@ class _LoginPageState extends State<LoginPage>
                       ),
                     ),
                     onPressed: () =>
-                        showInSnackBar("SignUp button pressed")),
+                      Navigator.pushReplacement(context, prefix0.MaterialPageRoute(
+                          builder: (context) => LoginPage()
+                        ))
+                ),        
               ),
             ],
           ),

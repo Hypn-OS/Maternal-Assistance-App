@@ -37,14 +37,19 @@ class MapScreenState extends State<ProfilePage>
                         child: new Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            new Icon(
-                              Icons.arrow_back_ios,
-                              color: Colors.black,
-                              size: 22.0,
+                            new RaisedButton(
+                              child: new Text("Back"),
+                                color: Colors.white,
+                              
+                              onPressed: () => {
+                                Navigator.pushReplacement(context, MaterialPageRoute(
+                          builder: (context) => MainPage()
+                        ))
+                              },
                             ),
                             Padding(
-                              padding: EdgeInsets.only(left: 25.0),
-                              child: new Text('PROFILE',
+                              padding: EdgeInsets.only(left: 20.0, top: 10.0),
+                              child: new Text('Background Information',
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 20.0,
@@ -113,7 +118,7 @@ class MapScreenState extends State<ProfilePage>
                                 mainAxisSize: MainAxisSize.min,
                                 children: <Widget>[
                                   new Text(
-                                    'Parsonal Information',
+                                    'Personal Information',
                                     style: TextStyle(
                                         fontSize: 18.0,
                                         fontWeight: FontWeight.bold),
@@ -140,7 +145,7 @@ class MapScreenState extends State<ProfilePage>
                                 mainAxisSize: MainAxisSize.min,
                                 children: <Widget>[
                                   new Text(
-                                    'Name',
+                                    'Expected Delivery Date',
                                     style: TextStyle(
                                         fontSize: 16.0,
                                         fontWeight: FontWeight.bold),
@@ -158,7 +163,7 @@ class MapScreenState extends State<ProfilePage>
                               new Flexible(
                                 child: new TextField(
                                   decoration: const InputDecoration(
-                                    hintText: "Enter Your Name",
+                                    hintText: "Enter Date in DD/MM/YYYY format",
                                   ),
                                   enabled: !_status,
                                   autofocus: !_status,
@@ -178,7 +183,7 @@ class MapScreenState extends State<ProfilePage>
                                 mainAxisSize: MainAxisSize.min,
                                 children: <Widget>[
                                   new Text(
-                                    'Email ID',
+                                    'Age',
                                     style: TextStyle(
                                         fontSize: 16.0,
                                         fontWeight: FontWeight.bold),
@@ -196,7 +201,7 @@ class MapScreenState extends State<ProfilePage>
                               new Flexible(
                                 child: new TextField(
                                   decoration: const InputDecoration(
-                                      hintText: "Enter Email ID"),
+                                      hintText: "Enter your age"),
                                   enabled: !_status,
                                 ),
                               ),
@@ -242,12 +247,47 @@ class MapScreenState extends State<ProfilePage>
                               left: 25.0, right: 25.0, top: 25.0),
                           child: new Row(
                             mainAxisSize: MainAxisSize.max,
+                            children: <Widget>[
+                              new Column(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                mainAxisSize: MainAxisSize.min,
+                                children: <Widget>[
+                                  new Text(
+                                    'Pincode',
+                                    style: TextStyle(
+                                        fontSize: 16.0,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          )),
+                      Padding(
+                          padding: EdgeInsets.only(
+                              left: 25.0, right: 25.0, top: 2.0),
+                          child: new Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: <Widget>[
+                              new Flexible(
+                                child: new TextField(
+                                  decoration: const InputDecoration(
+                                      hintText: "Enter your pincode"),
+                                  enabled: !_status,
+                                ),
+                              ),
+                            ],
+                          )),
+                      Padding(
+                          padding: EdgeInsets.only(
+                              left: 25.0, right: 25.0, top: 25.0),
+                          child: new Row(
+                            mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
                               Expanded(
                                 child: Container(
                                   child: new Text(
-                                    'Pin Code',
+                                    'Height',
                                     style: TextStyle(
                                         fontSize: 16.0,
                                         fontWeight: FontWeight.bold),
@@ -258,7 +298,7 @@ class MapScreenState extends State<ProfilePage>
                               Expanded(
                                 child: Container(
                                   child: new Text(
-                                    'State',
+                                    'Weight',
                                     style: TextStyle(
                                         fontSize: 16.0,
                                         fontWeight: FontWeight.bold),
@@ -280,7 +320,7 @@ class MapScreenState extends State<ProfilePage>
                                   padding: EdgeInsets.only(right: 10.0),
                                   child: new TextField(
                                     decoration: const InputDecoration(
-                                        hintText: "Enter Pin Code"),
+                                        hintText: "in cms"),
                                     enabled: !_status,
                                   ),
                                 ),
@@ -289,7 +329,7 @@ class MapScreenState extends State<ProfilePage>
                               Flexible(
                                 child: new TextField(
                                   decoration: const InputDecoration(
-                                      hintText: "Enter State"),
+                                      hintText: "in kgs"),
                                   enabled: !_status,
                                 ),
                                 flex: 2,

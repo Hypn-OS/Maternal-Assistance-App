@@ -1,5 +1,5 @@
-name: Maternal 
-description: Gorgeous Login UI
+name: Maternal
+description: An App to assist indian women to create awareness towards Maternal care.
 
 version: 1.0.0+1
 
@@ -20,11 +20,10 @@ dev_dependencies:
 
   font_awesome_flutter: ^8.0.1
   flutter_sparkline: any
+
   flutter_staggered_grid_view: any
   firebase_auth: 0.7.0
   cloud_firestore: 0.8.2+3
-
-
 
 flutter:
 
@@ -33,6 +32,15 @@ flutter:
   assets:
       - assets/login_logo.png
       - assets/shoes1.png
+      - assets/focus.jpeg
+      - assets/images/logo.png
+      - assets/images/powered_by.png
+      - assets/images/email_icon.png
+      - assets/images/password_icon.png
+      - assets/images/user_icon.png
+      - assets/images/as.png
+
+
 
   fonts:
     - family: WorkSansSemiBold
@@ -46,3 +54,10 @@ flutter:
     - family: WorkSansMedium
       fonts:
         - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
+    - family: Nexa
+      fonts:
+        - asset: assets/Nexa-Bold.otf
+
+    - family: NexaLight
+      fonts:
+        - asset: assets/Nexa-Light.otf

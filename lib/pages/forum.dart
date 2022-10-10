@@ -19,11 +19,11 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
         [
           SliverAppBar
           (
-            expandedHeight: 170.0,
+            expandedHeight: 10.0,
             backgroundColor: Colors.red,
             flexibleSpace: FlexibleSpaceBar
             (
-              title: Text('Nike Jordan Air III'),
+              title: Text('Pradhan Mantri Surakshit Matritva Abhiyan', textAlign: TextAlign.center ,style: TextStyle(fontSize: 15.0),),
               background: SizedBox.expand
               (
                 child: Stack
@@ -306,10 +306,10 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                           leading: CircleAvatar
                           (
                             backgroundColor: Colors.purple,
-                            child: Text('AI'),
+                            child: Text('JG'),
                           ),
-                          title: Text('Ivascu Adrian ★★★★★', style: TextStyle()),
-                          subtitle: Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking.', style: TextStyle()),
+                          title: Text('Jhulan Goswami ★★★★★', style: TextStyle()),
+                          subtitle: Text('Very well explained. I love reading it after practice.', style: TextStyle()),
                         ),
                       ),
                     ),
@@ -374,10 +374,10 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                               leading: CircleAvatar
                               (
                                 backgroundColor: Colors.purple,
-                                child: Text('AI'),
+                                child: Text('RS'),
                               ),
-                              title: Text('Ivascu Adrian ★★★★★', style: TextStyle()),
-                              subtitle: Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking', style: TextStyle()),
+                              title: Text('Richa Sharma ★★★★★', style: TextStyle()),
+                              subtitle: Text('Learning all this in pregnancy helps me a lot. Highly recommended to read.', style: TextStyle()),
                             ),
                           ),
                           Padding
@@ -426,10 +426,10 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                               leading: CircleAvatar
                               (
                                 backgroundColor: Colors.purple,
-                                child: Text('AI'),
+                                child: Text('SG'),
                               ),
-                              title: Text('Ivascu Adrian ★★★★★', style: TextStyle()),
-                              subtitle: Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking', style: TextStyle()),
+                              title: Text('Sonia Gandhi ★☆☆☆☆', style: TextStyle()),
+                              subtitle: Text("I don't like the scheme.." , style: TextStyle()),
                             ),
                           ),
                           Padding

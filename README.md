@@ -13,7 +13,7 @@
 3. [Kaushlendra Pratap](https://github.com/Kaushl2208)
 
 # MAA(Maternal Assistance App) :baby_symbol:
-India is highly populated and it needs effective healthcare accessible to all. Maternal Assistance App(MAA) provides Indian mothers to get regular & instant assistance during the pregnancy and the parenting phase. It is a personalized healthcare app especially for maternal assistance which can provide instant but effective help whenever and wherever needed. In this fast-growing technical world, a mobile device is something that is so close to everyone and having a virtual assistant during pregnancy and parenting phase is like a boon for Mankind. 
+India is highly populated and it needs effective a healthcare accessible to all. Maternal Assistance App(MAA) provides Indian mothers to get regular & instant assistance during the pregnancy and the parenting phase. It is a personalized healthcare app especially for maternal assistance which can provide instant but effective help whenever and wherever needed. In this fast-growing technical world, a mobile device is something that is so close to everyone and having a virtual assistant during pregnancy and parenting phase is like a boon for Mankind. 
 
 
 # Problem Statment :heavy_exclamation_mark:

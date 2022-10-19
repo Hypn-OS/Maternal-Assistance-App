@@ -28,7 +28,7 @@ India is highly populated and it needs effective healthcare accessible to all. M
 # Solution Proposed :heavy_check_mark:
 MAA (Maternal Assistance App) developed by Hypnos is specially designed for Indian Parents to get regular & instant assistance during the pregnancy and the parenting phase. 
 ### The app is having the following features : 
-- The app will notify about the daily development of the child. According to the expected delivery date, it will generate the whole timeline. 
+- The app will notify about the daily development of the child. According to the expected delivery date, it will be generate the whole timeline. 
 - A list of hospitals available near the mother can be looked upon. 
 - Post-delivery, the vaccination details with the time and availability in the nearest hospital will be provided. 
 - A perfect and seasonal diet chart verified by the doctor will be provided according to per the needs of the mother (Pregnancy and post-pregnancy period).

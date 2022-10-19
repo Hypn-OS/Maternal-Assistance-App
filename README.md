@@ -67,7 +67,8 @@ Redux will be used for state management will make sure that the app doesn’t cr
 
 
 # Note :clipboard:
-For running and building the app properly you have to use the geo-location API key in 
+For running and building this app properly you have to use the geo-location API key in 
+
 
 ```
 android/app/src/main/AndroidManifest.xml

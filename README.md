@@ -17,7 +17,7 @@ India is highly populated and it needs effective healthcare accessible to all. M
 
 
 # Problem Statment :heavy_exclamation_mark:
-- India is highly populated and it needs effective healthcare accessible to all. 
+- India is highly populated and it needs the effective healthcare accessible to all. 
 - In Indian culture, the relationship between the mother and her child is considered to be the purest of all. So the family cannot compromise with the health care of both the baby and the mother. 
 - There are few apps available in the market but none of them are designed and developed according to the need of an Indian mother.
 - It is not feasible for a mother to interact with the doctor every time with each and every minute details and help. 
